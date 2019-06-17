@@ -11,295 +11,213 @@ body {
 }
 
 nav {
-  background: red;
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-@media (max-width: 767px) {
-  .nav--fixed {
-    display: flex;
-    flex-flow: row;
-    padding: 5%;
-  }
+.nav--fixed {
+  display: flex;
+  flex-flow: row;
+  padding: 5% 5% 0 5%;
+  box-shadow: 5px 10px;
+}
 
-  .btn--purple {
-    text-align: center;
-    background: #192592;
-    padding: 20px;
-    border-radius: 4px;
-    margin: 10px 5%;
-    border-radius: 4px;
-    color: white;
-    width: 90%;
-  }
+.btn--purple {
+  text-align: center;
+  background: #192592;
+  padding: 20px;
+  border-radius: 4px;
+  margin: 10px 5%;
+  border-radius: 4px;
+  color: white;
+  width: 90%;
+}
 
-  .btn--white {
-    text-align: center;
-    background: white;
-    border: 1px solid #192592;
-    padding: 20px;
-    border-radius: 4px;
-    margin: 30px 5%;
-    border-radius: 4px;
-    color: #192592;
-    width: 90%;
-  }
+.btn--white {
+  text-align: center;
+  background: white;
+  border: 1px solid #192592;
+  padding: 20px;
+  border-radius: 4px;
+  margin: 30px 5%;
+  border-radius: 4px;
+  color: #192592;
+  width: 90%;
+}
 
-  .imput--email {
-    border: 1px solid #5b5e6d;
-    margin: 10px 5%;
-    border-radius: 4px;
-    padding: 15px;
-    width: 80%;
-  }
+.imput--email {
+  border: 1px solid #5b5e6d;
+  margin: 10px 5%;
+  border-radius: 4px;
+  padding: 15px;
+  width: 80%;
+}
 
-  .nav--wrapper--img img {
-    width: 40%;
-    margin-top: -20px;
-  }
+.nav--wrapper--img img {
+  width: 40%;
+  margin-top: -20px;
+}
 
-  .nav--wrapper--menu {
-    display: none;
-  }
+.nav--wrapper--menu {
+  display: none;
+}
 
-  .nav--wrapper--burger span {
-    display: block;
-    width: 33px;
-    height: 4px;
-    margin-bottom: 5px;
-    background: #5b5e6d;
-    border-radius: 3px;
-  }
+.nav--wrapper--burger span {
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  background: #5b5e6d;
+  border-radius: 3px;
+}
 
-  .jumbotron {
-    display: flex;
-    flex-flow: column-reverse;
-  }
+.jumbotron {
+  margin-top: 120px;
+  display: flex;
+  flex-flow: column-reverse;
+}
 
-  .jumbotron--wrapperImg img {
-    width: 100%;
-  }
+.jumbotron--wrapperImg img {
+  width: 100%;
+}
 
-  .marginLateral5porcent {
-    margin: 0 5%;
-  }
+.marginLateral5porcent {
+  margin: 0 5%;
+}
 
-  .jumbotron--wrapperText h1 {
-    font-size: 4em;
-    font-weight: 700;
-  }
+.jumbotron--wrapperText h1 {
+  font-size: 4em;
+  font-weight: 700;
+}
 
-  .jumbotron--wrapperText p {
-    font-size: 1.1em;
-    font-weight: 200;
-    line-height: 1.4em;
-    margin-bottom: 20px;
-  }
+.jumbotron--wrapperText p {
+  font-size: 1.1em;
+  font-weight: 200;
+  line-height: 1.4em;
+  margin-bottom: 20px;
+}
 
-  .main {
-  }
+.main {
+}
 
-  .mainDiv {
-    background-color: #f4f3f4;
-    text-align: center;
-    padding: 0 5% 40px 5%;
-  }
+.mainDiv {
+  background-color: #f4f3f4;
+  text-align: center;
+  padding: 0 5% 40px 5%;
+}
 
-  .mainDiv h2 {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 2em;
-    font-weight: 700;
-    padding-top: 40px;
-    margin-bottom: 20px;
-  }
+.mainDiv h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2em;
+  font-weight: 700;
+  padding-top: 40px;
+  margin-bottom: 20px;
+}
 
-  .mainDiv p {
-    font-size: 1.1em;
-    font-weight: 200;
-    line-height: 1.4em;
-    margin-bottom: px;
-  }
+.mainDiv p {
+  font-size: 1.1em;
+  font-weight: 200;
+  line-height: 1.4em;
+  margin-bottom: px;
+}
 
-  .mainDiv img {
-    width: 50%;
-    margin: 10%;
-  }
+.mainDiv img {
+  width: 50%;
+  margin: 10%;
+}
 
-  .mainDiv hr {
-    color: #5b5e6d;
-    width: 90%;
-  }
+.mainDiv hr {
+  color: #5b5e6d;
+  width: 90%;
+}
 
-  .main--try {
-    text-align: center;
-    padding: 0 5%;
-  }
+.main--try {
+  text-align: center;
+  padding: 0 5%;
+}
 
-  .main--try h3 {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 1.5em;
-    font-weight: 700;
-    padding-top: 40px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-  }
+.main--try h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  padding-top: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
 
-  .textFooter {
-    display: flex;
-    flex-flow: row;
-    flex-wrap: wrap;
-  }
+.textFooter {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+}
 
-  .textFooter--wrapper {
-    width: 40%;
-    padding: 0 5%;
-  }
+.textFooter--wrapper {
+  width: 40%;
+  padding: 0 5%;
+}
 
-  .textFooter--wrapper ul li {
-    padding-top: 10px;
-    margin-bottom: 20px;
-  }
+.textFooter--wrapper ul li {
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
 
-  .textFooter--wrapper ul li:first-child {
-    font-size: 1.1em;
-    font-weight: 700;
-    padding-top: 40px;
-    margin-bottom: 20px;
-  }
+.textFooter--wrapper ul li:first-child {
+  font-size: 1.1em;
+  font-weight: 700;
+  padding-top: 40px;
+  margin-bottom: 20px;
+}
 
-  .footer {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-between;
-  }
+.footer {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
 
-  .textCloseFooter {
-    background-color: #f4f3f4;
-    padding: 5%;
-    text-align: center;
-  }
+.textCloseFooter {
+  background-color: #f4f3f4;
+  padding: 5%;
+  text-align: center;
+}
 
-  .textCloseFooter ul li {
-    float: left;
-    padding: 10px;
-  }
+.textCloseFooter ul li {
+  float: left;
+  padding: 10px;
+}
 
-  .textCloseFooter img {
-    width: 25px;
-  }
-  .textCloseFooter i {
-  }
+.textCloseFooter img {
+  width: 25px;
 }
 
 @media (min-width: 768px) and (max-width: 961px) {
-  .nav--fixed {
-    display: flex;
-    flex-flow: row;
-    padding: 5%;
-  }
-
   .btn--purple {
-    text-align: center;
-    background: #192592;
-    padding: 20px;
-    border-radius: 4px;
-    margin: 10px 5%;
-    border-radius: 4px;
-    color: white;
     width: 25%;
   }
 
   .btn--white {
-    text-align: center;
-    background: white;
-    border: 1px solid #192592;
-    padding: 20px;
-    border-radius: 4px;
-    margin: 30px 5%;
-    border-radius: 4px;
-    color: #192592;
     width: 25%;
   }
 
   .imput--email {
-    border: 1px solid #5b5e6d;
-    margin-top: 10px;
-    border-radius: 4px;
-    padding: 15px;
     width: 40%;
   }
 
   .nav--wrapper--img img {
     width: 20%;
-    margin-top: -20px;
-  }
-
-  .nav--wrapper--menu {
-    display: none;
-  }
-
-  .nav--wrapper--burger span {
-    display: block;
-    width: 33px;
-    height: 4px;
-    margin-bottom: 5px;
-    background: #5b5e6d;
-    border-radius: 3px;
-  }
-
-  .jumbotron {
-    display: flex;
-    flex-flow: column-reverse;
   }
 
   .jumbotron--wrapperImg {
     text-align: center;
   }
+
   .jumbotron--wrapperImg img {
     width: 40%;
   }
 
-  .marginLateral5porcent {
-    margin: 0 5%;
-  }
-
-  .jumbotron--wrapperText h1 {
-    font-size: 4em;
-    font-weight: 700;
-  }
-
-  .jumbotron--wrapperText p {
-    font-size: 1.1em;
-    font-weight: 200;
-    line-height: 1.4em;
-    margin-bottom: 20px;
-  }
-
-  .main {
-  }
-
-  .mainDiv {
-    background-color: #f4f3f4;
-    text-align: center;
-    padding: 0 5% 40px 5%;
-  }
-
-  .mainDiv h2 {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 2em;
-    font-weight: 700;
-    padding-top: 40px;
-    margin-bottom: 20px;
-  }
-
-  .mainDiv p {
-    font-size: 1.1em;
-    font-weight: 200;
-    line-height: 1.4em;
-    margin-bottom: px;
-  }
-
   .mainDiv hr {
-    color: #5b5e6d;
     width: 100%;
   }
 
@@ -309,10 +227,12 @@ nav {
     flex-wrap: wrap;
     justify-content: center;
   }
+
   .wrapper--logo {
     width: 40%;
     margin: 5%;
   }
+
   .wrapper--logo img {
     width: 70%;
     margin: 10%;
@@ -324,19 +244,12 @@ nav {
     flex-wrap: wrap;
     justify-content: space-between;
   }
+
   .main--try {
     padding: 0 5%;
     width: 30%;
   }
 
-  .main--try h3 {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 1.5em;
-    font-weight: 700;
-    padding-top: 40px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-  }
   .main--try--btn {
     text-align: right;
     width: 60%;
@@ -346,6 +259,7 @@ nav {
     width: 150px;
     margin-top: 60px;
   }
+
   .btn--main--try {
     width: 175px;
   }
@@ -355,10 +269,9 @@ nav {
     width: 150px;
   }
 
-  .textFooter {
-    display: flex;
-    flex-flow: row;
-    flex-wrap: wrap;
+  .textFooter--wrapper ul li {
+    padding-top: 10px;
+    margin-bottom: 20px;
   }
 
   .textFooter--wrapper {
@@ -366,22 +279,7 @@ nav {
     padding: 0 5%;
   }
 
-  .textFooter--wrapper ul li {
-    padding-top: 10px;
-    margin-bottom: 20px;
-  }
-
-  .textFooter--wrapper ul li:first-child {
-    font-size: 1.1em;
-    font-weight: 700;
-    padding-top: 40px;
-    margin-bottom: 20px;
-  }
-
   .footer {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
     background-color: #f4f3f4;
   }
 
@@ -389,69 +287,41 @@ nav {
     padding: 5%;
     text-align: center;
   }
+
   .item--grow {
     flex-grow: 2;
-  }
-
-  .textCloseFooter ul li {
-    float: left;
-    padding: 10px;
   }
 
   .textCloseFooter img {
     width: 25px;
   }
-
-  .textCloseFooter i {
-  }
 }
 
 @media (min-width: 962px) and (max-width: 1024px) {
   .btn--purple {
-    text-align: center;
-    background: #192592;
-    padding: 20px;
-    border-radius: 4px;
-    margin: 10px 5%;
-    border-radius: 4px;
-    color: white;
-    width: 200px;
+    width: 170px;
   }
 
   .btn--white {
-    text-align: center;
-    background: white;
-    border: 1px solid #192592;
-    padding: 20px;
-    border-radius: 4px;
-    margin: 30px 5%;
-    border-radius: 4px;
-    color: #192592;
     width: 200px;
   }
 
   .imput--email {
-    border: 1px solid #5b5e6d;
-    margin-top: 10px;
-    border-radius: 4px;
-    padding: 15px;
-    width: 200px;
+    display: none;
+    width: 1px;
   }
-  .nav--fixed {
-    display: flex;
-    flex-flow: row;
-    justify-content: flex-end;
-    padding: 5%;
-  }
+
   .nav--wrapper--img {
     width: 50%;
   }
+
   .nav--wrapper--img img {
     width: 150px;
     margin-top: -20px;
   }
 
   .nav--wrapper--menu {
+    display: block;
     width: 450px;
   }
 
@@ -463,72 +333,21 @@ nav {
   .nav--wrapper--burger span {
     display: none;
     width: 1px;
-    height: 4px;
-    margin-bottom: 5px;
-    background: #5b5e6d;
-    border-radius: 3px;
   }
 
   .jumbotron {
     display: flex;
     flex-flow: row;
+    margin-top: 120px;
   }
 
   .jumbotron--wrapperImg {
     width: 50%;
   }
 
-  .jumbotron--wrapperImg {
-    width: 50%;
-  }
   .jumbotron--wrapperImg img {
     width: 500px;
     margin-top: 50px;
-  }
-
-  .marginLateral5porcent {
-    margin: 0 5%;
-  }
-
-  .jumbotron--wrapperText h1 {
-    font-size: 4em;
-    font-weight: 700;
-  }
-
-  .jumbotron--wrapperText p {
-    font-size: 1.1em;
-    font-weight: 200;
-    line-height: 1.4em;
-    margin-bottom: 20px;
-  }
-
-  .main {
-  }
-
-  .mainDiv {
-    background-color: #f4f3f4;
-    text-align: center;
-    padding: 0 5% 40px 5%;
-  }
-
-  .mainDiv h2 {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 2em;
-    font-weight: 700;
-    padding-top: 40px;
-    margin-bottom: 20px;
-  }
-
-  .mainDiv p {
-    font-size: 1.1em;
-    font-weight: 200;
-    line-height: 1.4em;
-    margin-bottom: px;
-  }
-
-  .mainDiv hr {
-    color: #5b5e6d;
-    width: 100%;
   }
 
   .cotainer--logo {
@@ -558,29 +377,13 @@ nav {
   .main--try {
     padding: 0 5%;
     width: 30%;
-  }
-
-  .main--try h3 {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 1.5em;
-    font-weight: 700;
-    padding-top: 40px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    text-align: left;
   }
 
   .main--try--btn {
     text-align: right;
     width: 60%;
-  }
-
-  .imput--main--try {
-    width: 150px;
-    margin-top: 60px;
-  }
-
-  .btn--main--try {
-    width: 175px;
+    margin-top: 30px;
   }
 
   .footer--img--slack img {
@@ -604,10 +407,129 @@ nav {
     margin-bottom: 20px;
   }
 
-  .textFooter--wrapper ul li:first-child {
-    font-size: 1.1em;
-    font-weight: 700;
-    padding-top: 40px;
+  .footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: #f4f3f4;
+  }
+
+  .item--grow {
+    flex-grow: 2;
+  }
+
+  .textCloseFooter img {
+    width: 25px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 2024px) {
+  .btn--purple {
+    width: 170px;
+  }
+
+  .btn--white {
+    width: 200px;
+  }
+
+  .imput--email {
+    display: none;
+    width: 1px;
+  }
+
+  .nav--wrapper--img {
+    width: 50%;
+  }
+
+  .nav--wrapper--img img {
+    width: 150px;
+    margin-top: -20px;
+  }
+
+  .nav--wrapper--menu {
+    display: block;
+    width: 450px;
+  }
+
+  .nav--wrapper--menu ul li {
+    float: right;
+    padding: 10px;
+  }
+
+  .nav--wrapper--burger span {
+    display: none;
+    width: 1px;
+  }
+
+  .jumbotron {
+    display: flex;
+    flex-flow: row;
+    margin-top: 120px;
+  }
+
+  .jumbotron--wrapperImg {
+    width: 50%;
+  }
+
+  .jumbotron--wrapperImg img {
+    width: 500px;
+    margin-top: 50px;
+  }
+
+  .cotainer--logo {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .wrapper--logo {
+    width: 30%;
+    padding: 10px;
+  }
+
+  .wrapper--logo img {
+    width: 60%;
+    margin: 5%;
+  }
+
+  .try {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .main--try {
+    padding: 0 5%;
+    width: 30%;
+    text-align: left;
+  }
+
+  .main--try--btn {
+    text-align: right;
+    width: 60%;
+    margin-top: 30px;
+  }
+
+  .footer--img--slack img {
+    float: left;
+    width: 150px;
+  }
+
+  .textFooter {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+  }
+
+  .textFooter--wrapper {
+    width: 15%;
+    padding: 0 5%;
+  }
+
+  .textFooter--wrapper ul li {
+    padding-top: 10px;
     margin-bottom: 20px;
   }
 
@@ -618,31 +540,11 @@ nav {
     background-color: #f4f3f4;
   }
 
-  .textCloseFooter {
-    padding: 5%;
-    text-align: center;
-  }
-
   .item--grow {
     flex-grow: 2;
-  }
-
-  .textCloseFooter ul li {
-    float: left;
-    padding: 10px;
   }
 
   .textCloseFooter img {
     width: 25px;
   }
-
-  .textCloseFooter i {
-  }
-}
-
-@media (min-width: 1025px) and (max-width: 1200px) {
-}
-
-@media (min-width: 1201px) {
-  //CSS
 }
